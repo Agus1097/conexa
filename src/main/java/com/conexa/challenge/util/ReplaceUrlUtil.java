@@ -8,7 +8,7 @@ public class ReplaceUrlUtil {
 
     private static final String API_URL = "https://www.swapi.tech/api";
 
-    public static String LOCAL_URL = "http://localhost:8080";
+    public static String LOCAL_URL = "https://conexa-production.up.railway.app";
 
     public static List<String> replaceBaseUrlList(List<String> urls) {
         if (Objects.isNull(urls) || urls.isEmpty()) {
