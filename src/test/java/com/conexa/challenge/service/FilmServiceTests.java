@@ -25,7 +25,7 @@ class FilmServiceTests {
     SendRequestService sendRequestService;
 
     @Test
-    void getPagedFilms_returnFilms() {
+    void getFilms_returnFilms() {
         SWApiResponseList<Film> expected = FilmFactory.sampleSWApiResponseList();
         ParameterizedTypeReference<SWApiResponseList<Film>> responseType = new ParameterizedTypeReference<SWApiResponseList<Film>>() {
         };
@@ -33,21 +33,21 @@ class FilmServiceTests {
         when(sendRequestService.getPagedEntity(any(SendRequestService.Resource.class), eq(responseType)))
                 .thenReturn(expected);
 
-        SWApiResponseList<Film> result = filmService.getPagedFilms();
+        SWApiResponseList<Film> result = filmService.getFilms();
 
         assertNotNull(result);
         assertEquals(expected, result);
     }
 
     @Test
-    void getPagedFilms_FilmsAreNull_returnNull() {
+    void getFilms_FilmsAreNull_returnNull() {
         ParameterizedTypeReference<SWApiResponseList<Film>> responseType = new ParameterizedTypeReference<SWApiResponseList<Film>>() {
         };
 
         when(sendRequestService.getPagedEntity(any(SendRequestService.Resource.class), eq(responseType)))
                 .thenReturn(null);
 
-        SWApiResponseList<Film> result = filmService.getPagedFilms();
+        SWApiResponseList<Film> result = filmService.getFilms();
 
         assertNull(result);
     }

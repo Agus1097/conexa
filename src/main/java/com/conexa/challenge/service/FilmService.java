@@ -22,7 +22,11 @@ public class FilmService {
         this.sendRequestService = sendRequestService;
     }
 
-    public SWApiResponseList<Film> getPagedFilms() {
+    /**
+     * Este método devuelve todas las películas existentes
+     * @return una lista con todas las personas existentes a través de una entidad parametrizada
+     */
+    public SWApiResponseList<Film> getFilms() {
         SWApiResponseList<Film> films = sendRequestService.getPagedEntity(FILM, new ParameterizedTypeReference<SWApiResponseList<Film>>() {
         });
         if (Objects.nonNull(films)) {
@@ -33,6 +37,11 @@ public class FilmService {
         return films;
     }
 
+    /**
+     * Este método devuelve una película en particular
+     * @param id el Id que deseamos buscar
+     * @return la película correspondiente a ese id
+     */
     public SWApiResponse<Film> getFilmById(int id) {
         SWApiResponse<Film> film = sendRequestService.getEntityBy(FILM, id, new ParameterizedTypeReference<SWApiResponse<Film>>() {
         });

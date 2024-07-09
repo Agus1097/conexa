@@ -24,6 +24,11 @@ public class VehicleService {
         });
     }
 
+    /**
+     * Este método devuelve una lista de vehículos de forma parametrizada con sus características
+     * @param id el id correspondiente al vehículo que buscamos
+     * @return de forma parametrizada una entidad de Vehículo con ciertas características(tipo de vehículo, longitud, entre otros)
+     */
     public SWApiResponse<VehicleDetail> getVehicleById(int id) {
         SWApiResponse<VehicleDetail> vehicleDetail = sendRequestService.getEntityBy(VEHICLE, id, new ParameterizedTypeReference<SWApiResponse<VehicleDetail>>() {
         });
@@ -33,6 +38,11 @@ public class VehicleService {
         return vehicleDetail;
     }
 
+    /**
+     * Este método devuelve una lista de vehículos de forma parametrizada con sus características
+     * @param name el nombre correspondiente al vehículo que buscamos(filtra por las letras que contiene)
+     * @return de forma parametrizada una entidad de Vehículo con ciertas características(tipo de vehículo, longitud, entre otros)
+     */
     public SWApiResponseList<VehicleDetail> getVehicleByName(String name) {
         SWApiResponseList<VehicleDetail> vehicleDetail = sendRequestService.getEntityName(VEHICLE, name, new ParameterizedTypeReference<SWApiResponseList<VehicleDetail>>() {
         });

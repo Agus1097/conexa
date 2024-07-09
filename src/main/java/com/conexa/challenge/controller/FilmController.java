@@ -23,8 +23,8 @@ public class FilmController {
     }
 
     @GetMapping
-    public ResponseEntity<SWApiResponseList<Film>> getPagedFilms() {
-        return ResponseEntity.ok(filmService.getPagedFilms());
+    public ResponseEntity<SWApiResponseList<Film>> getFilms() {
+        return ResponseEntity.ok(filmService.getFilms());
     }
 
     @GetMapping("/{id}")
