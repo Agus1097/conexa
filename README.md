@@ -1,4 +1,4 @@
-# Conexa - Challenge
+# Documentación de Challenge - Conexa
 
 Es una aplicación para integrar api de Star Wars (https://swapi.tech/documentation) desarrollada con Java 8, Spring Boot y H2, con sistema de autenticación con Spring Security y JWT. <br/>
 Permite obtener todos los datos de forma paginada, mediante ID y/o nombre de las entidades Films, People, Starships y Vehicles. <br/>
@@ -6,6 +6,8 @@ Permite obtener todos los datos de forma paginada, mediante ID y/o nombre de las
 Para poder utilizarla por primera vez es necesario registrarse y luego loguerse. Este último nos brindará un token que lo vamos a utilizar en los endpoints que lo requieran.
 
 ## Endpoints
+
+Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL. En donde hay colocar los endpoints que se han dejado en la documentación, con su autenticación si es necesario y los parametros o resquestBody que le correspondan.
 
 ## Autenticación
 
