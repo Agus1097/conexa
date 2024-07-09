@@ -7,7 +7,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
 
 ## Endpoints
 
-Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL. En donde hay colocar los endpoints que se han dejado en la documentación, con su autenticación si es necesario y los parametros o resquestBody que le correspondan.
+Debe utilizar una aplicación similar a Postman para ejecutar las siguientes URLs. En donde hay colocar los endpoints que se han dejado en la documentación, con su autenticación si es necesario y los parametros o resquestBody que le correspondan.
 
 ## Autenticación
 
@@ -45,7 +45,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 ```
 - ### Loguearse
 
-**Descripción:** `Este endpoint permite loguearse con usuario y contraseña registrados anteriormente. Es necesario estar logueado para ver las entidades de Star Wars. Si el usuario o la contraseña no coinciden no le va a permitir loguearse. Y la response va a brindar un baerer token que se va a utilizar para los endpoints que lo requieran.`
+**Descripción:** `Este endpoint permite loguearse con usuario y contraseña registrados anteriormente. Es necesario estar logueado para ver las entidades de Star Wars. Si el usuario o la contraseña no coinciden no le va a permitir loguearse. Y la response va a brindar un Bearer Token que se va a utilizar para los endpoints que lo requieran.`
 
 **Endpoint:** `https://conexa-production.up.railway.app/auth/login`
 
@@ -85,7 +85,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -179,7 +179,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -238,7 +238,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 404 NotFound:**
 ```json
@@ -258,7 +258,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -320,7 +320,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -345,7 +345,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 404 NotFound:**
 ```json
@@ -363,7 +363,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -409,7 +409,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -471,7 +471,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -501,7 +501,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 404 NotFound:**
 ```json
@@ -519,7 +519,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -647,7 +647,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -709,7 +709,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
@@ -742,7 +742,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 404 NotFound:**
 ```json
@@ -760,7 +760,7 @@ Debe utilizar una aplicación similar a Postman para ejecutar los siguientes URL
 
 **Método:** `GET`
 
-**Autenticación:** `Baerer Token`
+**Autenticación:** `Bearer Token`
 
 **Response 200 OK:**
 ```json
