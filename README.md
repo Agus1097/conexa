@@ -13,7 +13,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
 
 **Descripción:** `Este endpoint permite crear un usuario y contraseña. Es necesario estar registrado para ver las entidades de Star Wars. No se permiten usuarios repetidos`
 
-**Endpoint:** `http://18.119.113.226/auth/register`
+**Endpoint:** `https://conexa-production.up.railway.app/auth/register`
 
 **Método:** `POST`
 
@@ -45,7 +45,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
 
 **Descripción:** `Este endpoint permite loguearse con usuario y contraseña registrados anteriormente. Es necesario estar logueado para ver las entidades de Star Wars. Si el usuario o la contraseña no coinciden no le va a permitir loguearse. Y la response va a brindar un baerer token que se va a utilizar para los endpoints que lo requieran.`
 
-**Endpoint:** `http://18.119.113.226/auth/login`
+**Endpoint:** `https://conexa-production.up.railway.app/auth/login`
 
 **Método:** `POST`
 
@@ -79,7 +79,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
 
 **Descripción:** `Este endpoint permite listar todos las películas de StarWars.`
 
-**Endpoint:** `http://18.119.113.226/films`
+**Endpoint:** `https://conexa-production.up.railway.app/films`
 
 **Método:** `GET`
 
@@ -173,7 +173,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
   
 **Descripción:** `Este endpoint permite buscar una película de StarWars por ID. Describe detalladamente a la película.`
 
-**Endpoint:** `http://18.119.113.226/films/1`
+**Endpoint:** `https://conexa-production.up.railway.app/films/1`
 
 **Método:** `GET`
 
@@ -232,7 +232,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
     }
 }
 ```
-**Endpoint:** `http://18.119.113.226/films/8`
+**Endpoint:** `https://conexa-production.up.railway.app/films/8`
 
 **Método:** `GET`
 
@@ -252,7 +252,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
 
 **Descripción:** `Este endpoint permite listar todos los personajes de StarWars de forma paginada. En caso de no pasarle el parametro page y/o el parametro limit por defecto va a mostrar los 10 primeros personajes en la página 1.`
 
-**Endpoint:** `http://18.119.113.226/people?page=2&limit=10`
+**Endpoint:** `https://conexa-production.up.railway.app/people?page=2&limit=10`
 
 **Método:** `GET`
 
@@ -314,7 +314,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
   
 **Descripción:** `Este endpoint permite buscar un personaje de StarWars por ID. Describe detalladamente al personaje.`
 
-**Endpoint:** `http://18.119.113.226/people/1`
+**Endpoint:** `https://conexa-production.up.railway.app/people/1`
 
 **Método:** `GET`
 
@@ -339,7 +339,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
     }
 }
 ```
-**Endpoint:** `http://18.119.113.226/people/17`
+**Endpoint:** `https://conexa-production.up.railway.app/people/17`
 
 **Método:** `GET`
 
@@ -357,7 +357,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
   
 **Descripción:** `Este endpoint permite buscar un personaje de StarWars por el atributo name. Describe detalladamente al personaje.`
 
-**Endpoint:** `http://18.119.113.226/people/?name=Lu`
+**Endpoint:** `https://conexa-production.up.railway.app/people/?name=Lu`
 
 **Método:** `GET`
 
@@ -403,7 +403,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
 
 **Descripción:** `Este endpoint permite listar todos las naves espaciales de StarWars de forma paginada. En caso de no pasarle el parametro page y/o el parametro limit por defecto va a mostrar las 10 primeras naves espaciales en la página 1.`
 
-**Endpoint:** `http://18.119.113.226/starships?page=3&limit=10`
+**Endpoint:** `https://conexa-production.up.railway.app/starships?page=3&limit=10`
 
 **Método:** `GET`
 
@@ -465,7 +465,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
   
 **Descripción:** `Este endpoint permite buscar una nave espacial de StarWars por ID. Describe detalladamente a la nave espacial.`
 
-**Endpoint:** `http://18.119.113.226/starships/2`
+**Endpoint:** `https://conexa-production.up.railway.app/starships/2`
 
 **Método:** `GET`
 
@@ -495,7 +495,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
     }
 }
 ```
-**Endpoint:** `http://18.119.113.226/starships/1`
+**Endpoint:** `https://conexa-production.up.railway.app/starships/1`
 
 **Método:** `GET`
 
@@ -513,7 +513,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
   
 **Descripción:** `Este endpoint permite buscar una nave espacial de StarWars por el atributo name. Describe detalladamente a la nave espacial.`
 
-**Endpoint:** `http://18.119.113.226/starships/?name=Cr`
+**Endpoint:** `https://conexa-production.up.railway.app/starships/?name=Cr`
 
 **Método:** `GET`
 
@@ -641,7 +641,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
 
 **Descripción:** `Este endpoint permite listar todos los vehículos de StarWars de forma paginada. En caso de no pasarle el parametro page y/o el parametro limit por defecto va a mostrar los 10 primeros vehículos en la página 1.`
 
-**Endpoint:** `http://18.119.113.226/vehicles?page=2&limit=10`
+**Endpoint:** `https://conexa-production.up.railway.app/vehicles?page=2&limit=10`
 
 **Método:** `GET`
 
@@ -703,7 +703,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
   
 **Descripción:** `Este endpoint permite buscar un vehículo de StarWars por ID. Describe detalladamente al vehículo.`
 
-**Endpoint:** `http://18.119.113.226/vehicles/2`
+**Endpoint:** `https://conexa-production.up.railway.app/vehicles/2`
 
 **Método:** `GET`
 
@@ -736,7 +736,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
     }
 }
 ```
-**Endpoint:** `http://18.119.113.226/vehicles/1`
+**Endpoint:** `https://conexa-production.up.railway.app/vehicles/1`
 
 **Método:** `GET`
 
@@ -754,7 +754,7 @@ Para poder utilizarla por primera vez es necesario registrarse y luego loguerse.
   
 **Descripción:** `Este endpoint permite buscar vehículos de StarWars por el atributo name. Describe detalladamente al vehículo.`
 
-**Endpoint:** `http://18.119.113.226/vehicles/?name=Sa`
+**Endpoint:** `https://conexa-production.up.railway.app/vehicles/?name=Sa`
 
 **Método:** `GET`
 
